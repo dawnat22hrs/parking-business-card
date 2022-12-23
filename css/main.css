@@ -1,0 +1,443 @@
+@font-face {
+	font-family: 'proximanova';
+	src: url('../fonts/ofont.ru_Proxima\ Nova.ttf');
+	/*src: local('☺'), url('../fonts/proximanova_black.woff') format('woff'), url('../fonts/proximanova_black.ttf') format('truetype'), url('../fonts/proximanova_black.svg') format('svg');*/
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'proximanova';
+    max-width: 1920px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+.container__header {
+    margin-left: 453px;
+    margin-right: 258px;
+
+}
+
+.intro{
+    position: relative;
+    width: 100%;
+    height: 790px;
+    background-color: #F2F7FC;
+    background-image: url('img/intro-bg.png');
+}
+
+.header {
+    height: 146px;
+    width: 100%;
+    background: #fff;
+    padding: 57px 0 57px 0;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.nav_link{
+    color: #868FA4;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.telephone{
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.telephone_link{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+
+.intro__heading {
+    height: 345px;
+    width: 100%;
+    border-bottom: 9px solid #B5C0D9;
+}
+
+.title__intro__heading {
+    position: absolute;
+    width: 693px;
+    height: 222px;
+    left: 260px;
+    top: 73px;
+}
+
+.title__inner__h {
+    font-weight: 800;
+    font-size: 62px;
+}
+
+.intro__find-place {
+    width: 100%;
+    height: 445px;
+    background-color: #fff;
+}
+
+.intro__mans-and-car {
+    position: absolute;
+    top: 70px;
+    right: 279px;
+}
+
+.intro__find-place-price {
+    position: absolute;
+    width: 532px;
+    height: 123px;
+    bottom: 291px;
+    left: 260px;
+    display: flex;
+    align-items: center
+}
+
+.intro__find-place-price-left {
+    width: 163px;
+    height: 76px;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.intro__find-place-price-center {
+    width: 163px;
+    height: 76px;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.intro__find-place-price-right {
+    width: 163px;
+    height: 76px;
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.intro__find-place-price-container-line {
+    width: 2px;
+    height: 123px;
+    background: #B5C0D9;
+    display: inline-block;
+    margin: 0 15px 0 15px;
+}
+
+.intro__find-place-price-inside-date {
+    width: 116px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #579D45;
+    margin-bottom: 8px;
+    font-family: proximanova;
+}
+
+.intro__find-place-price-inside-money {
+    font-weight: 800;
+    width: 133px;
+    height: 36px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #191919;
+}
+
+.intro__find-place-date {
+    position: absolute;
+    width: 1416px;
+    height: 93px;
+    left: 260px;
+    top: 572px;
+}
+
+.intro__find-place-date-entry, .intro__find-place-date-departure p{
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #868FA4;
+    
+}
+
+.intro__find-place-date-entry-p, .intro__find-place-date-departure-p {
+    padding-bottom: 11px;
+}
+
+.intro__find-place-date-entry input{
+    width: 240px;
+    height: 60px;
+    border: 1px solid #B5C0D9;
+    border-radius: 4px;
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #B5C0D9;
+    display: inline-block;
+    padding-left: 0;
+
+}
+
+.intro__find-place-date-departure, .intro__find-place-date-entry, .btn__intro__find-place-date{
+    display: inline-block;
+}
+
+.intro__find-place-date-departure {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.intro__find-place-date-departure input{
+    width: 240px;
+    height: 60px;
+    border: 1px solid #B5C0D9;
+    border-radius: 4px;
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #B5C0D9;
+    display: inline-block;
+}
+
+.btn__intro__find-place-date button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px;
+    gap: 10px;
+    width: 359px;
+    height: 60px;
+    background: #579D45;
+    border-radius: 4px;
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: inline-block;
+}
+
+.services {
+    position: relative;
+    width: 100%;
+    height: 786px;
+    background-color: #F2F7FC;
+    background-image: url('img/Rectangle59.png');
+}
+
+.services__title {
+    position: absolute;
+    width: 876px;
+    height: 74px;
+    left: 522px;
+    top: 100px;
+    
+}
+
+.services__title h1 {
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 74px;
+    text-align: center;
+    color: #191919;
+    margin: 0;
+}
+
+.services__chapter {
+    position: absolute;
+    width: 1073px;
+    height: 41px;
+    left: 424px;
+    top: 224px;
+}
+
+.services__chapter p {
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #868FA4;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.services__chapter p:hover {
+    color:#579D45;
+}
+
+.services__chapter-two {
+    padding: 0 40px 0 40px;
+}
+
+.services__chapter-transfer ul {
+    position: absolute;
+    width: 560px;
+    height: 264px;
+    left: 1100px;
+    top: 368px;
+}
+
+.services__chapter-transfer li::after{
+    border: 1px solid #579D45;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.services__chapter-transfer li{
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868FA4;
+    margin-bottom: 20px;
+    list-style-type: circle;
+}
+
+.information {
+    position: relative;
+    width: 100%;
+    height: 1871px;
+    background-color: #fff;
+}
+
+.information__title {
+    position: absolute;
+    width: 876px;
+    height: 72px;
+    left: 522px;
+    top: 100px;
+    margin-bottom: 12px;
+}
+
+.information__title h1 {
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 72px;
+    text-align: center;
+    color: #191919;
+    margin: 0;
+}
+
+.information__grid-description {
+    position: absolute;
+    left: 260px;
+    top: 184px;
+    /*подключаем сетку*/
+    display: grid;
+    grid-template-columns: repeat(3, 520px);
+    grid-template-rows: repeat(2, 346px);
+  } 
+
+  .information__grid-description > * {
+    /*фоновый цвет*/
+    background-color: #F2F7FC;
+    /*скругление углов*/
+    border-radius: 6px;
+    /*расстояние от одной границы ячейки до другой*/
+    margin: 20px;
+  }
+
+.information__grid-description p {
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #868FA4;
+    margin: 0 0 108px 50px;
+}
+
+.information__grid-description h2 {
+    font-family: 'proximanova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 36px;
+    color: #579D45;
+    margin: 50px 0 8px 50px;
+}
+
+.information__grid-description img {
+    position: sticky;
+    left: 74.09%;
+    right: 10%;
+    top: 65.79%;
+    bottom: 15.04%;
+}
+
+.information__grid-photo {
+    position: absolute;
+    width: 1403px;
+    height: 796px;
+    left: 256px;
+    top: 856px;
+    margin-top: 40px;
+    padding: 0;
+    /*подключаем сетку*/
+    display: grid;
+    grid-template-columns: repeat(4, 399px);
+    grid-template-rows: repeat(3, 318px);
+}
+
+.information__grid-photo > * {
+    /*фоновый цвет*/
+    background-color: #F2F7FC;
+    /*скругление углов*/
+    border-radius: 6px;
+    /*расстояние от одной границы ячейки до другой*/
+    margin: 20px;
+  }
+
+  .oblast-video {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
